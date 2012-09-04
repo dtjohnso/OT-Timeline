@@ -1,0 +1,752 @@
+{
+	"items" : [
+		{
+			"label" :       "Javan",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 66:19" ],
+			"latlng" : "27.367825, 37.953314"
+		},
+		{
+			"label" :       "Tema",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 21:14" ],
+			"latlng" : "27.633172, 38.554125"
+		},
+		{
+			"label" :       "Ar",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 15:1" ],
+			"latlng" : "31.449809, 35.593958"
+		},
+		{
+			"label" :       "City of Destruction",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 19:18" ],
+			"latlng" : "30.108086, 31.338220"
+		},
+		{
+			"label" :       "Washer's Field",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 7:3", "Isa 36:2" ],
+			"latlng" : "31.769079, 35.227994"
+		},
+		{
+			"label" :       "Medeba",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 15:2" ],
+			"latlng" : "31.720457, 35.791972"
+		},
+		{
+			"label" :       "Arnon",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 16:2" ],
+			"latlng" : "31.428800, 35.677009"
+		},
+		{
+			"label" :       "Michmash",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 10:28" ],
+			"latlng" : "31.870184, 35.279235"
+		},
+		{
+			"label" :       "Laishah",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 10:30" ],
+			"latlng" : "31.800000, 35.250000"
+		},
+		{
+			"label" :       "Eglaim",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 15:8" ],
+			"latlng" : "30.998062, 35.498547"
+		},
+		{
+			"label" :       "Cyprus",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 23:1", "Isa 23:12" ],
+			"latlng" : "35.018306, 33.207693"
+		},
+		{
+			"label" :       "Beer-elim",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 15:8" ],
+			"latlng" : "30.998062, 35.498547"
+		},
+		{
+			"label" :       "Syria",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 7:1", "Isa 7:2", "Isa 7:4", "Isa 7:5", "Isa 7:8", "Isa 17:3" ],
+			"latlng" : "33.519299, 36.313449"
+			// "latlng" : "36.313449, 33.519299" // correct layout
+		},
+		{
+			"label" :       "Media",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 21:2" ],
+			"latlng" : "34.798311, 48.514966"
+		},
+		{
+			"label" :       "Carchemish",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 10:9" ],
+			"latlng" : "36.829281, 38.015760"
+		},
+		{
+			"label" :       "Sharon",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 33:9", "Isa 35:2", "Isa 65:10" ],
+			"latlng" : "32.639068, 34.945929"
+		},
+		{
+			"label" :       "Ramah",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 10:29" ],
+			"latlng" : "31.896378, 35.201730"
+		},
+		{
+			"label" :       "Shiloah",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 8:6" ],
+			"latlng" : "31.777444, 35.234935"
+		},
+		{
+			"label" :       "House of the Forest",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 22:8" ],
+			"latlng" : "31.777444, 35.234935"
+		},
+		{
+			"label" :       "Valley of Gibeon",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 28:21" ],
+			"latlng" : "31.846847, 35.184912"
+		},
+		{
+			"label" :       "Cush",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 11:11", "Isa 18:1", "Isa 20:3", "Isa 20:5", "Isa 37:9", "Isa 43:3", "Isa 45:14" ],
+			"latlng" : "21.959788, 31.343557"
+		},
+		{
+			"label" :       "Edom",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 11:14", "Isa 34:5", "Isa 34:6", "Isa 34:9", "Isa 63:1" ],
+			"latlng" : "30.734691, 35.606250"
+		},
+		{
+			"label" :       "Horonaim",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 15:5" ],
+			"latlng" : "31.288056, 35.515000"
+		},
+		{
+			"label" :       "Geba",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 10:29" ],
+			"latlng" : "31.857878, 35.259755"
+		},
+		{
+			"label" :       "Sodom",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 1:9", "Isa 1:10", "Isa 3:9", "Isa 13:19" ],
+			"latlng" : "31.196560, 35.396484"
+		},
+		{
+			"label" :       "Egypt",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 19:6", "Isa 30:7" ],
+			"latlng" : "30.108086, 31.338220"
+		},
+		{
+			"label" :       "Euphrates",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 27:12" ],
+			"latlng" : "35.090577, 40.427780"
+		},
+		{
+			"label" :       "Kir",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 15:1", "Isa 22:6" ],
+			"latlng" : "31.181325, 35.702147"
+		},
+		{
+			"label" :       "Jerusalem",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 1:1", "Isa 2:1", "Isa 2:3", "Isa 3:1", "Isa 3:8", "Isa 4:3", "Isa 4:4", "Isa 5:3", "Isa 5:14", "Isa 7:1", "Isa 8:14", "Isa 10:10", "Isa 10:11", "Isa 10:12", "Isa 10:32", "Isa 22:10", "Isa 22:21", "Isa 24:23", "Isa 27:13", "Isa 28:14", "Isa 30:19", "Isa 31:5", "Isa 31:9", "Isa 33:20", "Isa 36:2", "Isa 36:7", "Isa 36:20", "Isa 37:10", "Isa 37:22", "Isa 37:32", "Isa 40:2", "Isa 40:9", "Isa 41:27", "Isa 44:26", "Isa 44:28", "Isa 51:17", "Isa 52:1", "Isa 52:2", "Isa 52:9", "Isa 62:6", "Isa 62:7", "Isa 64:10", "Isa 65:18", "Isa 65:19", "Isa 66:10", "Isa 66:13", "Isa 66:20" ],
+			"latlng" : "31.777444, 35.234935"
+		},
+		{
+			"label" :       "Sela",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 16:1", "Isa 42:11" ],
+			"latlng" : "30.322435, 35.456279"
+		},
+		{
+			"label" :       "Elealeh",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 15:4", "Isa 16:9" ],
+			"latlng" : "31.813796, 35.824275"
+		},
+		{
+			"label" :       "Haran",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 37:12" ],
+			"latlng" : "36.863864, 39.032196"
+		},
+		{
+			"label" :       "Dibon",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 15:2", "Isa 15:9" ],
+			"latlng" : "31.496845, 35.782841"
+		},
+		{
+			"label" :       "Lebanon",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 2:13", "Isa 10:34", "Isa 14:8", "Isa 29:17", "Isa 33:9", "Isa 35:2", "Isa 37:24", "Isa 40:16", "Isa 60:13" ],
+			"latlng" : "33.752479, 35.590804"
+		},
+		{
+			"label" :       "Rahab",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 30:7", "Isa 51:9" ],
+			"latlng" : "30.108086, 31.338220"
+		},
+		{
+			"label" :       "Chaldea",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 48:20" ],
+			"latlng" : "30.962052, 46.103741"
+		},
+		{
+			"label" :       "Shihor",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 23:3" ],
+			"latlng" : "31.032047, 33.854957"
+		},
+		{
+			"label" :       "River",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 7:20", "Isa 8:7", "Isa 11:15" ],
+			"latlng" : "35.090577, 40.427780"
+		},
+		{
+			"label" :       "Hena",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 37:13" ],
+			"latlng" : "34.467725, 41.964955"
+		},
+		{
+			"label" :       "Babylon",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 13:1", "Isa 13:19", "Isa 14:4", "Isa 14:22", "Isa 21:9", "Isa 39:1", "Isa 39:3", "Isa 39:6", "Isa 39:7", "Isa 43:14", "Isa 47:1", "Isa 48:14", "Isa 48:20" ],
+			"latlng" : "32.536503, 44.420882"
+		},
+		{
+			"label" :       "Pathros",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 11:11" ],
+			"latlng" : "28.322364, 30.692312"
+		},
+		{
+			"label" :       "Negeb",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 21:1", "Isa 30:6" ],
+			"latlng" : "30.3, 34.2"
+		},
+		{
+			"label" :       "Mount Zion",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 4:5", "Isa 8:18", "Isa 10:12", "Isa 18:7", "Isa 24:23", "Isa 29:8", "Isa 31:4", "Isa 37:32" ],
+			"latlng" : "31.777444, 35.234935"
+		},
+		{
+			"label" :       "Midian",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 9:4", "Isa 10:26", "Isa 60:6" ],
+			"latlng" : "28.932881, 34.90832"
+		},
+		{
+			"label" :       "Zion",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 1:8", "Isa 1:27", "Isa 2:3", "Isa 3:16", "Isa 3:17", "Isa 4:3", "Isa 4:4", "Isa 10:24", "Isa 10:32", "Isa 12:6", "Isa 14:32", "Isa 16:1", "Isa 28:16", "Isa 30:19", "Isa 31:9", "Isa 33:5", "Isa 33:14", "Isa 33:20", "Isa 34:8", "Isa 35:10", "Isa 37:22", "Isa 40:9", "Isa 41:27", "Isa 46:13", "Isa 49:14", "Isa 51:3", "Isa 51:11", "Isa 51:16", "Isa 52:1", "Isa 52:2", "Isa 52:7", "Isa 52:8", "Isa 59:20", "Isa 60:14", "Isa 61:3", "Isa 62:11", "Isa 64:10", "Isa 66:8" ],
+			"latlng" : "31.777444, 35.234935"
+		},
+		{
+			"label" :       "City of the Lord",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 60:14" ],
+			"latlng" : "31.777444, 35.234935"
+		},
+		{
+			"label" :       "Pul",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 66:19" ],
+			"latlng" : "32.824979, 21.858301"
+		},
+		{
+			"label" :       "Ashdod",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 20:1" ],
+			"latlng" : "31.802999, 34.635114"
+		},
+		{
+			"label" :       "Elam",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 11:11", "Isa 21:2", "Isa 22:6" ],
+			"latlng" : "32.189191, 48.257886"
+		},
+		{
+			"label" :       "Aroer",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 17:2" ],
+			"latlng" : "31.9617, 35.9115"
+		},
+		{
+			"label" :       "Kir-hareseth",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 16:7", "Isa 16:11" ],
+			"latlng" : "31.181325, 35.702147"
+		},
+		{
+			"label" :       "Hamath",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 10:9", "Isa 11:11", "Isa 36:19", "Isa 37:13" ],
+			"latlng" : "35.136204, 36.749488"
+		},
+		{
+			"label" :       "Gozan",
+			"type" :        "Placemark",
+			"description": "Excavations at this site are described <a href='http://www.fecheriye.de/index.php?l=eng' target='_blank'>here</a>.",
+			"scripture" : [ "Isa 37:12" ],
+			"latlng" : "36.840013, 40.068890"
+		},
+		{
+			"label" :       "Brook of the Willows",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 15:7" ],
+			"latlng" : "32.309099, 35.559900"
+		},
+		{
+			"label" :       "Ivvah",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 37:13" ],
+			"latlng" : "34.467725, 41.964955"
+		},
+		{
+			"label" :       "Nebaioth",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 60:7" ],
+			"latlng" : "30.322435, 35.456279"
+		},
+		{
+			"label" :       "Madmenah",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 10:31" ],
+			"latlng" : "31.800000, 35.250000"
+		},
+		{
+			"label" :       "Nimrim",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 15:6" ],
+			"latlng" : "31.133191, 35.531138"
+		},
+		{
+			"label" :       "Tarshish",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 2:16", "Isa 23:1", "Isa 23:6", "Isa 23:10", "Isa 23:14", "Isa 60:9", "Isa 66:19" ],
+			"latlng" :      "36.952995,-6.379340"
+		},
+		{
+			"label" :       "Egypt",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 7:18", "Isa 10:26", "Isa 11:11", "Isa 11:16", "Isa 19:1", "Isa 19:12", "Isa 19:13", "Isa 19:14", "Isa 19:15", "Isa 19:18", "Isa 19:19", "Isa 19:20", "Isa 19:22", "Isa 19:23", "Isa 19:24", "Isa 19:25", "Isa 20:3", "Isa 20:4", "Isa 20:5", "Isa 23:5", "Isa 27:13", "Isa 30:2", "Isa 30:3", "Isa 31:1", "Isa 36:6", "Isa 36:9", "Isa 37:25", "Isa 43:3", "Isa 45:14", "Isa 52:4" ],
+			"latlng" : "30.108086, 31.338220"
+		},
+		{
+			"label" :       "Arabia",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 21:13" ],
+			"latlng" : "27.4, 37.7"
+		},
+		{
+			"label" :       "Arpad",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 10:9", "Isa 36:19", "Isa 37:13" ],
+			"latlng" : "35.136204, 36.749488"
+		},
+		{
+			"label" :       "Valley of Achor",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 65:10" ],
+			"latlng" : "31.836890, 35.399737"
+		},
+		{
+			"label" :       "Gebim",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 10:31" ],
+			"latlng" : "31.800000, 35.250000"
+		},
+		{
+			"label" :       "Moab",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 11:14", "Isa 15:1", "Isa 15:2", "Isa 15:4", "Isa 15:5", "Isa 15:8", "Isa 15:9", "Isa 16:2", "Isa 16:4", "Isa 16:6", "Isa 16:7", "Isa 16:11", "Isa 16:12", "Isa 16:13", "Isa 16:14", "Isa 25:10" ],
+			"latlng" : "31.496845, 35.782841"
+		},
+		{
+			"label" :       "Ariel",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 29:1", "Isa 29:2", "Isa 29:7" ],
+			"latlng" : "31.777444, 35.234935"
+		},
+		{
+			"label" :       "Damascus",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 7:8", "Isa 8:4", "Isa 10:9", "Isa 17:1", "Isa 17:3" ],
+			"latlng" : "33.519299, 36.313449"
+		},
+		{
+			"label" :       "Nebo",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 15:2" ],
+			"latlng" : "31.748024, 35.743257"
+		},
+		{
+			"label" :       "Memphis",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 19:13" ],
+			"latlng" : "29.849632, 31.253958"
+		},
+		{
+			"label" :       "Ephah",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 60:6" ],
+			"latlng" : "28.932881, 34.90832"
+		},
+		{
+			"label" :       "Seir",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 21:11" ],
+			"latlng" : "30.734691, 35.606250"
+		},
+		{
+			"label" :       "Gibeah",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 10:29" ],
+			"latlng" : "31.823781, 35.231009"
+		},
+		{
+			"label" :       "Carmel",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 33:9", "Isa 35:2" ],
+			"latlng" : "31.433331, 35.133331"
+		},
+		{
+			"label" :       "Lachish",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 36:2", "Isa 37:8" ],
+			"latlng" : "31.564850, 34.846725"
+		},
+		{
+			"label" :       "Syene",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 49:12" ],
+			"latlng" : "24.066181, 32.895862"
+		},
+		{
+			"label" :       "Philistia",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 14:29", "Isa 14:31" ],
+			"latlng" : "33.563167, 35.366346"
+		},
+		{
+			"label" :       "Way of Holiness",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 35:8" ],
+			"latlng" : "31.777444, 35.234935"
+		},
+		{
+			"label" :       "Dumah",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 21:11" ],
+			"latlng" : "27.4, 37.7"
+		},
+		{
+			"label" :       "Tubal",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 66:19" ],
+			"latlng" : "40.905222, 37.799969"
+		},
+		{
+			"label" :       "Jazer",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 16:8", "Isa 16:9" ],
+			"latlng" : "31.943529, 35.727769"
+		},
+		{
+			"label" :       "Nile",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 19:6", "Isa 19:7", "Isa 19:8", "Isa 23:3", "Isa 23:10" ],
+			"latlng" : "30.092632, 31.230987"
+		},
+		{
+			"label" :       "Migron",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 10:28" ],
+			"latlng" : "31.823781, 35.231009"
+		},
+		{
+			"label" :       "Tyre",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 23:1", "Isa 23:5", "Isa 23:8", "Isa 23:15", "Isa 23:17" ],
+			"latlng" : "33.275827, 35.192574"
+		},
+		{
+			"label" :       "Sidon",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 23:2", "Isa 23:4", "Isa 23:12" ],
+			"latlng" : "33.563167, 35.366346"
+		},
+		{
+			"label" :       "Bashan",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 2:13", "Isa 33:9" ],
+			"latlng" : "32.800075, 35.937301"
+		},
+		{
+			"label" :       "Sibmah",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 16:8", "Isa 16:9" ],
+			"latlng" : "31.815283, 35.766738"
+		},
+		{
+			"label" :       "Kedar",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 21:16", "Isa 21:17", "Isa 42:11", "Isa 60:7" ],
+			"latlng" : "27.4, 37.7"
+		},
+		{
+			"label" :       "Samaria",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 7:9", "Isa 8:4", "Isa 9:9", "Isa 10:9", "Isa 10:10", "Isa 10:11", "Isa 36:19" ],
+			"latlng" : "32.280231, 35.197929"
+		},
+		{
+			"label" :       "Aiath",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 10:28" ],
+			"latlng" : "31.916978, 35.261226"
+		},
+		{
+			"label" :       "Ophir",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 13:12" ],
+			"latlng" :      "22,77"
+		},
+		{
+			"label" :       "Brook of Egypt",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 27:12" ],
+			"latlng" : "31.032047, 33.854957"
+		},
+		{
+			"label" :       "Sepharvaim?",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 36:19", "Isa 37:13" ],
+			"latlng" : "33.789693, 44.459399"
+		},
+		{
+			"label" :       "Zoar",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 15:5" ],
+			"latlng" : "30.926522, 35.419060"
+		},
+		{
+			"label" :       "Telassar",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 37:12" ],
+			"latlng" : "32.189191, 48.257886"
+		},
+		{
+			"label" :       "Valley of Rephaim",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 17:5" ],
+			"latlng" : "31.756332, 35.223059"
+		},
+		{
+			"label" :       "Rezeph",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 37:12" ],
+			"latlng" : "35.950000, 39.016667"
+		},
+		{
+			"label" :       "Seba",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 43:3" ],
+			"latlng" : "9.022736, 38.746799"
+		},
+		{
+			"label" :       "Lud",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 66:19" ],
+			"latlng" : "31.951388, 34.895277"
+		},
+		{
+			"label" :       "Jahaz",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 15:4" ],
+			"latlng" : "31.501003, 35.920631"
+		},
+		{
+			"label" :       "Galilee",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 9:1" ],
+			"latlng" : "32.706745, 35.301528"
+		},
+		{
+			"label" :       "Jerusalem",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 62:1" ],
+			"latlng" : "31.777444, 35.234935"
+		},
+		{
+			"label" :       "Sea of Egypt",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 11:15" ],
+			"latlng" : "27.088473, 34.771729"
+		},
+		{
+			"label" :       "Zoan",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 19:11", "Isa 19:13", "Isa 30:4" ],
+			"latlng" : "30.974619, 31.884173"
+		},
+		{
+			"label" :       "Heshbon",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 15:4", "Isa 16:8", "Isa 16:9" ],
+			"latlng" : "31.800520, 35.809018"
+		},
+		{
+			"label" :       "Mount Perazim",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 28:21" ],
+			"latlng" : "31.756332, 35.223059"
+		},
+		{
+			"label" :       "Nob",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 10:32" ],
+			"latlng" : "31.799605, 35.232980"
+		},
+		{
+			"label" :       "Zion",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 33:6", "Isa 62:1" ],
+			"latlng" : "31.777444, 35.234935"
+		},
+		{
+			"label" :       "Calno",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 10:9" ],
+			"latlng" : "32.127213, 45.229995"
+		},
+		{
+			"label" :       "Hanes",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 30:4" ],
+			"latlng" : "29.085425, 30.934402"
+		},
+		{
+			"label" :       "Assyria",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 7:17", "Isa 7:18", "Isa 7:20", "Isa 8:4", "Isa 8:7", "Isa 10:5", "Isa 10:12", "Isa 11:11", "Isa 11:16", "Isa 19:23", "Isa 19:24", "Isa 19:25", "Isa 20:1", "Isa 20:4", "Isa 20:6", "Isa 23:13", "Isa 27:13", "Isa 36:1", "Isa 36:2", "Isa 36:4", "Isa 36:8", "Isa 36:13", "Isa 36:15", "Isa 36:16", "Isa 36:18", "Isa 37:4", "Isa 37:6", "Isa 37:8", "Isa 37:10", "Isa 37:11", "Isa 37:18", "Isa 37:21", "Isa 37:33", "Isa 37:37", "Isa 38:6" ],
+			"latlng" : "36.359410, 43.152887"
+		},
+		{
+			"label" :       "Bozrah",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 34:6", "Isa 63:1" ],
+			"latlng" : "30.734691, 35.606250"
+		},
+		{
+			"label" :       "Luhith",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 15:5" ],
+			"latlng" : "31.288056, 35.515000"
+		},
+		{
+			"label" :       "Anathoth",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 10:30" ],
+			"latlng" : "31.812912, 35.263498"
+		},
+		{
+			"label" :       "Jordan",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 9:1" ],
+			"latlng" : "32.309099, 35.559900"
+		},
+		{
+			"label" :       "Nineveh",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 37:37" ],
+			"latlng" : "36.359410, 43.152887"
+		},
+		{
+			"label" :       "Sheba",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 60:6" ],
+			"latlng" : "9.022736, 38.746799"
+		},
+		{
+			"label" :       "Gallim",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 10:30" ],
+			"latlng" : "31.816667, 35.250000"
+		},
+		{
+			"label" :       "Shinar",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 11:11" ],
+			"latlng" : "32.536503, 44.420882"
+		},
+		{
+			"label" :       "Ararat",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 37:38" ],
+			"latlng" : "39.702892, 44.298180"
+		},
+		{
+			"label" :       "Gomorrah",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 1:9", "Isa 1:10", "Isa 13:19" ],
+			"latlng" : "31.157248, 35.473954"
+		},
+		{
+			"label" :       "Canaan",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 19:18", "Isa 23:11" ],
+			"latlng" : "31.693529, 34.843882"
+		},
+		{
+			"label" :       "Libnah",
+			"type" :        "Placemark",
+			"scripture" : [ "Isa 37:8" ],
+			"latlng" : "31.564850, 34.846725"
+		}
+	],
+	"types" :      {
+		"Placemark" : {
+			"uri" : "http:\/\/www.simile-widgets.org\/2009\/03\/exhibit-geo#Placemark"
+		}
+	},
+	"properties" : {
+		"latlng" : {
+			"uri" : "http:\/\/www.simile-widgets.org\/2009\/03\/exhibit-geo#latlng"
+		},
+		"scripture" : {
+			"uri" : "http:\/\/duncanandmeg.org\/projects\/isaiah\/data\/custom-properties.html"
+		}
+	}
+
+}

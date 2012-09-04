@@ -1,0 +1,70 @@
+﻿<html>
+  <head>
+    <title>Isaiah Visualizations: Map</title>
+
+    <!-- SIMILE Exhibit -->
+    <script src="http://api.simile-widgets.org/exhibit/2.2.0/exhibit-api.js"></script>
+    <script src="http://api.simile-widgets.org/exhibit/2.2.0/extensions/map/map-extension.js?gmapkey=AIzaSyDECi2rL6MOWdMQGHPDe9vGv-QyGMI1G3k"></script>
+
+    <!-- bib.ly integration -->
+    <script src="http://code.bib.ly/bibly.min.js"></script>
+    <script src="assets/bibly-settings.js"></script>
+
+    <!-- Data file --><link href="data/map-data.json" type="application/json" rel="exhibit/data" />
+    
+    <!-- Styling -->
+    <link rel="stylesheet" href="assets/style.css" />
+    <link href='http://fonts.googleapis.com/css?family=Belgrano' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <div class="boilerplate">
+        <h1>Isaiah Visualizations: Map</h1>
+        <p>A <a href="timeline.html">timeline</a> of relevant historical events is also available. These visualizations were created to supplement course materials for <a href="http://duncanandmeg.org/blogs/ex204/">Ex204 Exposition of Isaiah</a> at <a href="http://foundationbaptistcollege.ca/">Foundation Baptist College</a>, Edmonton, AB.</p>
+    </div>
+
+    <table width="100%" cellspacing="20px">
+        <tr valign="top">
+            <td>
+                <!-- Map view: To further customize the map, refer to http://simile-widgets.org/wiki/Exhibit/Map_View -->
+                <div ex:role="view"
+                    ex:viewClass="Map"
+                    ex:latlng=".latlng"
+                    ex:latlngPairSeparator=","
+                    ex:center="31.777444,35.234935"
+                    ex:iconScale="0.5"
+                    ex:zoom="5"
+                    ex:mapHeight="600"
+                    ex:type="satellite">
+                </div>     
+            </td>
+            <td width="20%">
+                <!-- Search and filtering facets -->
+                <div ex:role="facet" id="search" ex:facetClass="TextSearch" ex:facetLabel="Search"></div>
+                <div ex:role="facet" ex:expression=".scripture" ex:facetLabel="Scripture reference" ex:height="250px"></div>
+                <div ex:role="facet" ex:expression=".label" ex:facetLabel="Locations" ex:height="250px"></div>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Credit -->
+    <div class="credit">
+        <center ex:role="logo" ex:color="DimGrey"></center>
+        <p>Produced by Duncan Johnson using geocode data obtained from <a href="http://www.openbible.info/">openbible.info</a></p>
+
+        <!-- License -->
+        <div class="license"><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Isaiah Visualizations</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://duncanandmeg.org/projects/isaiah/" property="cc:attributionName" rel="cc:attributionURL">Duncan Johnson</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a></div>
+    </div>
+
+
+    <!-- Custom lens -->
+    <div ex:role="lens" ex:onshow="bibly.scanForReferences(this)">
+        <p><b ex:content=".label"></b><br/>Coordinates: <span id="coordinates" ex:content=".latlng"></span><br/>
+        View in <a ex:href-content="concat('http://maps.google.com/maps?q=',.latlng)" target="_blank">Google Maps</a></p>
+        <p ex:if-exists=".description" ex:content=".description"></p>
+        </p>
+        <p ex:if-exists=".scripture">Scripture: <span ex:if-exists=".scripture" ex:content=".scripture"></span></p>
+    </div>
+
+  </body>
+</html>

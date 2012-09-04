@@ -1,0 +1,262 @@
+{
+	"items" :      [
+		{
+			"label" :         "Oswalt, John N.",
+			"type" :          "Author",
+			"original-name" : "Oswalt, John N.",
+			"last-name" :     "Oswalt"
+		},
+		{
+			"publisher" : "{InterVarsity} Press",
+			"pub-type" :  "book",
+			"uri" :       "urn:8f820e2d246b8081fa775d47d60bd828",
+			"date" :      "1993",
+			"author" :    "Motyer, J. Alec",
+			"keywords" :  [
+				"{\\#Ex204}",
+				"\\#obtained",
+				"\\#own",
+				"\u05E2\u05DC\u05DE\u05D4"
+			],
+			"year" :      "1993",
+			"type" :      "Publication",
+			"isbn" :      "9780830814244",
+			"label" :     "The Prophecy of Isaiah: An Introduction \\& Commentary",
+			"address" :   "Downers Grove, {IL}",
+			"key" :       "motyer_prophecy_1993"
+		},
+		{
+			"label" :         "Merrill, Eugene H.",
+			"type" :          "Author",
+			"original-name" : "Merrill, Eugene H.",
+			"last-name" :     "Merrill"
+		},
+		{
+			"publisher" : "Eerdmans",
+			"pub-type" :  "book",
+			"uri" :       "urn:66aa0c606a91cc347b99c6eb4617f539",
+			"date" :      "1986",
+			"author" :    "Oswalt, John N.",
+			"series" :    "{NICOT}",
+			"keywords" :  [
+				"{\\#Ex204}",
+				"\\#obtained",
+				"\\#own",
+				"\u05E2\u05DC\u05DE\u05D4"
+			],
+			"type" :      "Publication",
+			"year" :      "1986",
+			"isbn" :      "9780802825292",
+			"label" :     "The Book of Isaiah: Chapters 1-39",
+			"address" :   "Grand Rapids, {MI}",
+			"key" :       "oswalt_book_1986"
+		},
+		{
+			"label" :         "Thiele, Edwin Richard",
+			"type" :          "Author",
+			"original-name" : "Thiele, Edwin Richard",
+			"last-name" :     "Thiele"
+		},
+		{
+			"publisher" :  "{Inter-Varsity} Press",
+			"lccn" :       "224.1 W381",
+			"pub-type" :   "book",
+			"uri" :        "urn:f117c3039f3a9a2b866b23501b607e46",
+			"date" :       "1996",
+			"author" :     "Webb, Barry G.",
+			"series" :     "The Bible Speaks Today",
+			"keywords" :   [
+				"{\\#Ex204}",
+				"\\#exam-copy",
+				"{\\#MackReserve}",
+				"\\#obtained",
+				"Bible"
+			],
+			"shorttitle" : "The Message of Isaiah",
+			"type" :       "Publication",
+			"year" :       "1996",
+			"isbn" :       "0830812407",
+			"label" :      "The Message of Isaiah: On Eagles\' Wings",
+			"address" :    "Leicester, England",
+			"key" :        "webb_message_1996"
+		},
+		{
+			"label" :         "Webb, Barry G.",
+			"type" :          "Author",
+			"original-name" : "Webb, Barry G.",
+			"last-name" :     "Webb"
+		},
+		{
+			"label" :         "Notley, R. Steven",
+			"type" :          "Author",
+			"original-name" : "Notley, R. Steven",
+			"last-name" :     "Notley"
+		},
+		{
+			"publisher" :  "Baker Books",
+			"pub-type" :   "book",
+			"uri" :        "urn:a726521bfa08837edbb21e41c66157d9",
+			"date" :       "1996",
+			"author" :     "Merrill, Eugene H.",
+			"keywords" :   "\\#obtained",
+			"shorttitle" : "Kingdom of Priests",
+			"type" :       "Publication",
+			"year" :       "1996",
+			"isbn" :       "0801021030 9780801021039",
+			"label" :      "Kingdom of Priests: A History of Old Testament Israel",
+			"address" :    "Grand Rapids, {MI}",
+			"key" :        "merrill_kingdom_1996"
+		},
+		{
+			"publisher" : "{Inter-Varsity} Press",
+			"pub-type" :  "book",
+			"uri" :       "urn:0f4c6429a8b176b8760cd4c656716e24",
+			"date" :      "2009",
+			"author" :    "Motyer, J. Alec",
+			"series" :    "Tyndale Old Testament Commentaries",
+			"keywords" :  [
+				"{\\#Ex204}",
+				"\\#exam-copy",
+				"\\#obtained"
+			],
+			"type" :      "Publication",
+			"year" :      "2009",
+			"isbn" :      "9780830842209",
+			"label" :     "Isaiah: An Introduction and Commentary",
+			"address" :   "Nottingham, England",
+			"key" :       "motyer_isaiah_2009"
+		},
+		{
+			"publisher" : "Eerdmans",
+			"pub-type" :  "book",
+			"uri" :       "urn:da9e43e0980bd7440e288ec37dbeef73",
+			"date" :      "1998",
+			"author" :    "Oswalt, John N.",
+			"series" :    "{NICOT}",
+			"keywords" :  [
+				"{\\#Ex204}",
+				"\\#obtained",
+				"\\#own"
+			],
+			"type" :      "Publication",
+			"year" :      "1998",
+			"isbn" :      "9780802825346",
+			"label" :     "The Book of Isaiah: Chapters 40-66",
+			"address" :   "Grand Rapids, {MI}",
+			"key" :       "oswalt_book_1998"
+		},
+		{
+			"label" :         "Motyer, J. Alec",
+			"type" :          "Author",
+			"original-name" : "Motyer, J. Alec",
+			"last-name" :     "Motyer"
+		},
+		{
+			"publisher" : "Kregel",
+			"pub-type" :  "book",
+			"uri" :       "urn:2d74b53012eea1f0137c25b81a8c7656",
+			"date" :      "1994",
+			"author" :    "Thiele, Edwin Richard",
+			"keywords" :  "\\#obtained",
+			"year" :      "1994",
+			"type" :      "Publication",
+			"isbn" :      "{082543825X} 9780825438257",
+			"label" :     "The Mysterious Numbers of the Hebrew Kings",
+			"address" :   "Grand Rapids, {MI}",
+			"key" :       "thiele_mysterious_1994"
+		},
+		{
+			"label" :         "Rainey, Anson F.",
+			"type" :          "Author",
+			"original-name" : "Rainey, Anson F.",
+			"last-name" :     "Rainey"
+		},
+		{
+			"publisher" :  "Karta",
+			"lccn" :       "{REF} 220.91 R135",
+			"pub-type" :   "book",
+			"uri" :        "urn:f3770508e6b569e5a78422ec1a19888c",
+			"date" :       "2006",
+			"author" :     [
+				"Rainey, Anson F.",
+				"Notley, R. Steven"
+			],
+			"keywords" :   [
+				"{\\#Historical\/geographical} study",
+				"{\\#MackReference}",
+				"\\#obtained",
+				"{\\#Wishlist}",
+				"Bible",
+				"Geography",
+				"History",
+				"History of Biblical events",
+				"Jews",
+				"Palestine"
+			],
+			"shorttitle" : "The Sacred Bridge",
+			"type" :       "Publication",
+			"year" :       "2006",
+			"label" :      "The Sacred Bridge: Carta\'s Atlas of the Biblical World",
+			"address" :    "Jerusalem",
+			"key" :        "rainey_sacred_2006"
+		}
+	],
+	"types" :      {
+		"Author" :      {
+			"uri" : "http:\/\/simile.mit.edu\/2006\/11\/bibtex#Author"
+		},
+		"Publication" : {
+			"label" :       "Publication",
+			"uri" :         "http:\/\/simile.mit.edu\/2006\/11\/bibtex#Publication",
+			"pluralLabel" : "Publications"
+		}
+	},
+	"properties" : {
+		"publisher" :     {
+			"uri" : "http:\/\/simile.mit.edu\/2006\/11\/bibtex#publisher"
+		},
+		"lccn" :          {
+			"uri" : "http:\/\/simile.mit.edu\/2006\/11\/bibtex#lccn"
+		},
+		"date" :          {
+			"uri" : "http:\/\/purl.org\/dc\/elements\/1.1\/date"
+		},
+		"last-name" :     {
+			"uri" : "http:\/\/simile.mit.edu\/2006\/11\/bibtex#last-name"
+		},
+		"original-name" : {
+			"uri" : "http:\/\/simile.mit.edu\/2006\/11\/bibtex#original-name"
+		},
+		"author" :        {
+			"reverseLabel" :         "authors of",
+			"label" :                "author",
+			"groupingLabel" :        "their authors",
+			"uri" :                  "http:\/\/simile.mit.edu\/2006\/11\/bibtex#author",
+			"reverseGroupingLabel" : "what they author",
+			"reversePluralLabel" :   "authors of",
+			"valueType" :            "item",
+			"pluralLabel" :          "authors"
+		},
+		"series" :        {
+			"uri" : "http:\/\/simile.mit.edu\/2006\/11\/bibtex#series"
+		},
+		"keywords" :      {
+			"uri" : "http:\/\/simile.mit.edu\/2006\/11\/bibtex#keywords"
+		},
+		"shorttitle" :    {
+			"uri" : "http:\/\/simile.mit.edu\/2006\/11\/bibtex#shorttitle"
+		},
+		"year" :          {
+			"uri" : "http:\/\/simile.mit.edu\/2006\/11\/bibtex#year"
+		},
+		"isbn" :          {
+			"uri" : "http:\/\/simile.mit.edu\/2006\/11\/bibtex#isbn"
+		},
+		"address" :       {
+			"uri" : "http:\/\/simile.mit.edu\/2006\/11\/bibtex#address"
+		},
+		"key" :           {
+			"uri" : "http:\/\/simile.mit.edu\/2006\/11\/bibtex#key"
+		}
+	}
+}

@@ -1,0 +1,65 @@
+<html>
+<head>
+  <script src="http://static.simile.mit.edu/exhibit/api-2.0/exhibit-api.js" type="text/javascript"></script>
+  <script src="http://static.simile.mit.edu/exhibit/extensions-2.0/time/time-extension.js"></script>
+  <!-- <link  rel="exhibit/data"  type="application/jsonp" href="https://spreadsheets.google.com/feeds/list/0Al49R2dL41V5dGVWc0NLQXpXeGRUV3dGYjlkc3dDS2c/od6/public/basic?alt=json-in-script" ex:converter="googleSpreadsheets" />  -->
+  <link rel="exhibit/data" type="application/json" href="timeline-data.json"/>
+  <style>
+  .credit {
+      color: DimGrey;
+      font-family: sans-serif;
+      font-size: xx-small;
+      font-weight: bold;
+  }
+  </style>
+  <script>
+  function myTimelineConstructor(div, eventSource) {
+    var theme = Timeline.ClassicTheme.create();
+    theme.event.bubble.width = 450; 
+    theme.event.bubble.height = 300;
+    theme.ether.backgroundColors[1] = theme.ether.backgroundColors[0];
+    var d = Timeline.DateTime.parseGregorianDateTime("721 bc")
+    var bandInfos = [
+    Timeline.createBandInfo({
+        width:          "75%", 
+        intervalUnit:   Timeline.DateTime.DECADE, 
+        intervalPixels: 175,
+        eventSource:    eventSource,
+        date:           d,
+        theme:          theme
+    }),
+    Timeline.createBandInfo({
+        width:          "25%", 
+        intervalUnit:   Timeline.DateTime.CENTURY, 
+        intervalPixels: 120,
+        eventSource:    eventSource,
+        date:           d,
+        overview:       true,
+        theme:          theme
+    })
+    ];
+    bandInfos[1].syncWith = 0;
+    bandInfos[1].highlight = true;
+
+
+    div.style.height = "500px";
+    return Timeline.create(div, bandInfos, Timeline.HORIZONTAL);
+    }
+</script>
+</head>
+<body>
+    <div ex:role="view" ex:viewClass="Timeline" ex:start=".start" ex:end=".end" ex:colorKey=".eventType" ex:bubbleWidth="300" ex:bubbleHeight="300" ex:timelineConstructor="myTimelineConstructor">
+    </div>
+    <div style="text-align:center" ex:role="logo" ex:color="DimGrey"></div>
+    <div style="margin:20px 0 0 0;text-align:center;color=DimGrey;font-family:sans-serif;font-size:xx-small; "></div>
+    
+    <div ex:role="lens">
+        <b ex:content=".label"></b><br/><a ex:if-exists=".wikipedia" ex:href-content=".wikipedia" target="_blank">[Wikipedia]</a>
+        <p><a target="_blank" ex:if-exists=".imagesource" ex:href-content=".imagesource"><img ex:if-exists=".image" ex:src-content=".image" /></a><span ex:if-exists=".imagecredit" ex:content="concat('<br/>',.imagecredit)" class="credit"></span></p>
+        <p ex:content=".description"></p>
+        <p>Date<span ex:if-exists=".end" ex:content="'s'"></span>: <span ex:content=".start"></span><span ex:if-exists=".end" ex:content="concat('&ndash;',.end)"></span></p>
+        <span ex:if-exists=".sources" ex:content="concat('Sources: ',.sources)"></span>
+    </div>
+</body>
+</html>
+
