@@ -12,6 +12,7 @@ This project is currently a work in progress.
 * Add information about OT prophets
 * Add information about rulers of Egypt, Assyria, & Babylon who significantly impact the flow of OT history
 * Confirm dates from Isaiah source data file against dates in Thiele.
+* Generalize timeline code into a separate repo, add that repo as an upstream remote for easier development of features for timelines generally
 
 ## Sources
 
