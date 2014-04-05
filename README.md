@@ -6,6 +6,7 @@ This project is currently a work in progress.
 ## Todo
 
 * Finish merging local data file with information contained in Google Spreadsheet
+* Separate events into separate data files by eventType for easier recycling into future projects (e.g. separate files for Israel and non-Israel events)
 * Add dates for events in David (based on info from Merrill)
 * Add information about OT prophets
 * Add information about rulers of Egypt, Assyria, & Babylon who significantly impact the flow of OT history
