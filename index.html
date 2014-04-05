@@ -1,34 +1,69 @@
 <html>
-  <head>
-    <title>Isaiah Visualizations</title>    
+<head>
+	<title>A Timeline of Old Testament History</title>
+
+    <!-- bib.ly integration -->
+    <script src="http://code.bib.ly/bibly.min.js"></script>
+    <script src="assets/bibly-settings.js"></script>
+
+    <!-- SIMILE Exhibit -->
+    <script src="http://api.simile-widgets.org/exhibit/2.2.0/exhibit-api.js"></script>
+	<script src="http://api.simile-widgets.org/exhibit/2.2.0/extensions/time/time-extension.js"></script>
+
+	<!--script src="http://api.simile-widgets.org/exhibit/3.0.0rc1/exhibit-api.js"></script>
+	<script src="http://api.simile-widgets.org/exhibit/3.0.0rc1/extensions/time/time-extension.js"></script--> 
+	
+	<!-- Data file --><link rel="exhibit/data" type="application/json" href="data/timeline-data.json"/>
+	<!-- Data file --><link rel="exhibit/data" type="application/jsonp" href="https://spreadsheets.google.com/feeds/cells/0Al49R2dL41V5dHpBUlpyeHhqMmpsc0ppVXIzMzE5bHc/od6/public/basic?alt=json-in-script"/ ex:converter="googleSpreadsheets">
+
+	<!-- Styling -->
     <link rel="stylesheet" href="assets/style.css" />
     <link href='http://fonts.googleapis.com/css?family=Belgrano' rel='stylesheet' type='text/css'>
-  </head>
-  <body>
-  	<div class="boilerplate">
-        <h1>Isaiah Visualizations</h1>
-        <p>I've created a <a href="timeline.html">timeline</a> of relevant historical events in the book of Isaiah as well as a <a href="map.html">map</a>. These visualizations were created to supplement course materials for <a href="http://duncanandmeg.org/blogs/ex204/">Ex204 Exposition of Isaiah</a> at <a href="http://foundationbaptistcollege.ca/">Foundation Baptist College</a>, Edmonton, AB.</p>
-        <p>Select which visualization you'd like to view below.</p>
-    </div>
+</head>
+<body>
+	<div class="boilerplate">
+		<h1>A Timeline of Old Testament History</h1>
+		<p>This timeline was created to supplement course materials for <a href="http://blogs.duncanjohnson.ca/ex315-2014/">Ex315 Historical Books</a> at <a href="http://foundationbaptistcollege.ca/">Foundation Baptist College</a>, Edmonton, AB.</p>
+	</div>
 
-    <table class="other" width="100%">
+	<table width="100%" cellspacing="20px">
 		<tr valign="top">
-			<td width="50%">
-				<a href="map.html"><img src="assets/map.png" border="0"/></a>
+			<td>
+				<!-- Timeline view: To further customize the timeline, refer to http://simile-widgets.org/wiki/Exhibit/Timeline_View -->
+				<div ex:role="view"
+					ex:viewClass="Timeline"
+					ex:start=".start"
+					ex:end=".end"
+					ex:bubbleWidth="300"
+					ex:bubbleHeight="300"
+					ex:colorKey=".eventType">
+				</div>		
 			</td>
-			<td width="50%">
-				<a href="timeline.html"><img src="assets/timeline.png" border="0"/></a>
+			<td width="20%">
+				<!-- Search and filtering facets -->
+				<div ex:role="facet" ex:facetClass="TextSearch" ex:facetLabel="Search"></div>
+				<div ex:role="facet" ex:expression=".eventType" ex:facetLabel="Nation"></div>
 			</td>
 		</tr>
 	</table>
 
     <!-- Credit -->
     <div class="credit">
+        <center ex:role="logo" ex:color="DimGrey"></center>
         <p>Produced by Duncan Johnson</p>
 
         <!-- License -->
-        <div class="license"><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Isaiah Visualizations</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://duncanjohnson.ca" property="cc:attributionName" rel="cc:attributionURL">Duncan Johnson</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a></div>
+        <div class="license"><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">A Timeline of Old Testament History</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://duncanjohnson.ca" property="cc:attributionName" rel="cc:attributionURL">Duncan Johnson</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a></div>
     </div>
 
-  </body>
+	<!-- Custom lens -->
+	<div ex:role="lens" ex:onshow="bibly.scanForReferences(this)" >
+		<b ex:content=".label"></b><br/><a ex:if-exists=".wikipedia" ex:href-content=".wikipedia" target="_blank">[Wikipedia]</a>
+		<p><a target="_blank" ex:if-exists=".imagesource" ex:href-content=".imagesource"><img ex:if-exists=".image" ex:src-content=".image" /></a><span ex:if-exists=".imagecredit" ex:content="concat('<br/>',.imagecredit)" class="credit"></span></p>
+		<p ex:content=".description"></p>
+		<p>Date<span ex:if-exists=".end" ex:content="'s'"></span>: <span ex:content=".start"></span><span ex:if-exists=".end" ex:content="concat('&ndash;',.end)"></span></p>
+		<span ex:if-exists=".sources" ex:content="concat('Sources: ',.sources)"></span>
+	</div>
+</body>
 </html>
+
