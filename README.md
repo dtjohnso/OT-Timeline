@@ -1,4 +1,20 @@
-Isaiah-Visualizations
-=====================
+A Timeline of OT History
+========================
 
-I've created a timeline of relevant historical events in the book of Isaiah as well as a map. These visualizations were created to supplement course materials for Ex204 Exposition of Isaiah at Foundation Baptist College, Edmonton, AB.
+This project is currently a work in progress.
+
+## Todo
+
+* Finish merging local data file with information contained in Google Spreadsheet
+* Add dates for events in David (based on info from Merrill)
+* Add information about OT prophets
+* Add information about rulers of Egypt, Assyria, & Babylon who significantly impact the flow of OT history
+* Confirm dates from Isaiah source data file against dates in Thiele.
+
+## Sources
+
+These dates are based on a number of different sources, which I've tried to recognize in the "source" field for each data point. I have used some sources more than others in confirming these dates, and these are listed below:
+
+Thiele, Edwin Richard. *The Mysterious Numbers of the Hebrew Kings.* Grand Rapids, MI: Kregel, 1994.
+
+Merrill, Eugene H. *Kingdom of Priests: A History of Old Testament Israel.* Grand Rapids, MI: Baker Books, 1996.
