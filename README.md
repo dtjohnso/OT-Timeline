@@ -8,6 +8,7 @@ This project is currently a work in progress.
 * Finish merging local data file with information contained in Google Spreadsheet
 * Separate events into separate data files by eventType for easier recycling into future projects (e.g. separate files for Israel and non-Israel events)
 * Add events that show span of major periods in Israel's history (Exodus, Conquest, Egyptian sojourn, etc).
+* Add events to show the span of major dynasties (Omride dynasty, etc)
 * Add dates for events in David (based on info from Merrill)
 * Add information about OT prophets
 * Add information about rulers of Egypt, Assyria, & Babylon who significantly impact the flow of OT history
