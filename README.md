@@ -6,6 +6,7 @@ This project is currently a work in progress.
 ## Todo
 
 * Finish merging local data file with information contained in Google Spreadsheet
+* Fix bugs with presentation of date information in lens
 * Separate events into separate data files by eventType for easier recycling into future projects (e.g. separate files for Israel and non-Israel events)
 * Add events that show span of major periods in Israel's history (Exodus, Conquest, Egyptian sojourn, etc).
 * Add events to show the span of major dynasties (Omride dynasty, etc)
