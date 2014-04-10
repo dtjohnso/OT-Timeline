@@ -10,6 +10,7 @@ This project is currently a work in progress.
 * Separate events into separate data files by eventType for easier recycling into future projects (e.g. separate files for Israel and non-Israel events)
 * Add events that show span of major periods in Israel's history (Exodus, Conquest, Egyptian sojourn, etc).
 * Add events to show the span of major dynasties (Omride dynasty, etc)
+* Add dynastic information to individual items, add extra search facet to filter by dynastic period
 * Add dates for events in David (based on info from Merrill)
 * Add information about OT prophets
 * Add information about rulers of Egypt, Assyria, & Babylon who significantly impact the flow of OT history
